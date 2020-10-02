@@ -4,10 +4,10 @@ Benjamin Skovgaard - cph-bs190@cphbusiness.dk
 
 ## Notes
 
-I have deployed my 'person_client' (front end) project on my droplet's nginx server 
-and deployed the person REST API from last week ('rest_jax_rs') on tomcat. The front end 
-portion communicates with the back end (API) to do various fetch calls (GET, POST, 
-PUT, DELETE). The link to the website with the deployed front end on nginx can be 
+I have deployed my 'person_client' (front-end) project on my droplet's nginx server 
+and deployed the person REST API from last week ('rest_jax_rs') on tomcat. The front-end 
+portion communicates with the back-end (API) to do various fetch calls (GET, POST, 
+PUT, DELETE). The link to the website with the deployed front-end on nginx can be 
 found here:
 
 - https://bencat.dk/person/
@@ -48,11 +48,11 @@ All exercises have been completed.
 Worked on 1 project: 'person_client'. I spent this day going through the exercises of the final
 part of the 4-part exercise. The first 3 parts involved setting up an API with a person database 
 (with entity classes,rest endpoints etc) which we did last week (flow 2, week 1) and the final
-part involved creating JavaScript front end with the newly introduced web pack that could communicate
+part involved creating JavaScript front-end with the newly introduced web pack that could communicate
 with our API through fetch calls of various types (GET, POST, PUT, DELETE).
 
 I eventually went on to deploy my back-end from week 1 on my droplet (on my tomcat server), and later 
-my front end JavaScript on the Nginx server located on my droplet as well. A link to the end product
+my front-end JavaScript on the Nginx server located on my droplet as well. A link to the end product
 can be found above in the 'Notes' section.
 
 ## Friday
