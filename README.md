@@ -55,6 +55,9 @@ I eventually went on to deploy my back-end from week 1 on my droplet (on my tomc
 my front-end JavaScript on the Nginx server located on my droplet as well. A link to the end product
 can be found above in the 'Notes' section.
 
+#### Project status
+- 'person_client' = completed
+
 ## Friday
 Worked on 2 projects: 'country_map' and 'country_java'. Both of these were part of the same optional
 exercise, which involved first using an svg file containing various country codes and an actual map
