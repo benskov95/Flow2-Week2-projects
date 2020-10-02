@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Persons</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    
+    <body>
+      
+      <br>
+      <br>
+      <br>
+      <div class="col-lg-6" style="margin-left: auto;
+         margin-right: auto; text-align: center">
+      <h2>Persons</h2>
+      <br>
+
+        <div class="pre-scrollable">
+            <table class="table" id ="personTable">
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Phone</th>
+                    <th>Street</th>
+                    <th>Zip Code</th>
+                    <th>City</th>
+                    <th></th>
+                </tr>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+        
+        <br>
+        <br>
+        <p id="deletedInfo" style="font-size: 14px;
+         position: absolute; bottom: 0; right: 35px;
+          background-color: rgba(255,0,0,0.3); 
+          padding-right: 5px; padding-left: 5px;"></p>
+        <div style="position: absolute; bottom: 0; left: 0">
+        <button class="btn btn-outline-primary" id="reload">Reload Data</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Add New Person</button>
+        </div>
+
+
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                      <h4 class="modal-title w-100">Enter person information</h4>
+                  </div>
+                  <div class="modal-body">
+                      
+                       <div>
+                        <form id="addForm">
+                          <br>
+                          <label for="fName">First name:</label><br>
+                          <input type="text" id="aFname"><br>
+                          <label for="lName">Last name:</label><br>
+                          <input type="text" id="aLname"><br>
+                          <label for="phone">Phone:</label><br>
+                          <input type="text" id="aPhone"><br>
+                          <label for="street">Street:</label><br>
+                          <input type="text" id="aStreet"><br>
+                          <label for="zip">Zip code:</label><br>
+                          <input type="text" id="aZip"><br>
+                          <label for="city">City:</label><br>
+                          <input type="text" id="aCity"><br>
+                          <br>
+                          <p style="font-size: 14px" id="addPersonStatus"></p>
+                        </form>
+                        <button id="addPerson" class ="btn btn-primary">Add</button>
+                        <br>
+                        <br>
+                      </div>
+                      
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        
+        <div id="myModal2" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                      <h4 class="modal-title w-100">Enter person information to edit.</h4>
+                  </div>
+                  <div class="modal-body">
+                      
+                       <div>
+                        <form id="editForm">
+                          <br>
+                          <p>Edit as you like and click 'Edit' to finish editing the person.</p>
+                          <label for="fName">First name:</label><br>
+                          <input type="text" id="eFname"><br>
+                          <label for="lName">Last name:</label><br>
+                          <input type="text" id="eLname"><br>
+                          <label for="phone">Phone:</label><br>
+                          <input type="text" id="ePhone"><br>
+                          <label for="street">Street:</label><br>
+                          <input type="text" id="eStreet"><br>
+                          <label for="zip">Zip code:</label><br>
+                          <input type="text" id="eZip"><br>
+                          <label for="city">City:</label><br>
+                          <input type="text" id="eCity"><br>
+                          <br>
+                          <p style="font-size: 14px" id="editPersonStatus"></p>
+                        </form>
+                        <button id="editPerson" class ="btn btn-primary">Edit</button>
+                        <br>
+                        <br>
+                      </div>
+                      
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
