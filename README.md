@@ -16,6 +16,10 @@ Link to the REST API that the client fetches data from:
 
 - https://bencat.dk/pclient/api/person/all
 
+Link to the deployed country map from the Friday exercise:
+
+- https://bencat.dk/countrymap/
+
 ## Monday
 Did code review of last week's exercises.
 
@@ -61,7 +65,7 @@ can be found above in the 'Notes' section.
 ## Friday
 Worked on 2 projects: 'country_map' and 'country_java'. Both of these were part of the same optional
 exercise, which involved first using an svg file containing various country codes and an actual map
-(image) of various regions to set up a web page where you can click on a country and get information
+(image) of various countries to set up a web page where you can click on a country and get information
 about it from a provided REST API containing lots of information about each country, as well as highlighting 
 the selected country when clicked.
 
