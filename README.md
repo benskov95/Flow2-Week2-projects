@@ -4,15 +4,15 @@ Benjamin Skovgaard - cph-bs190@cphbusiness.dk
 
 ## Notes
 
-I have deployed my 'person_client' (front-end) project on my droplet's nginx server 
+I have deployed my 'person_client' (front-end) project on my droplet's NGINX server 
 and deployed the person REST API from last week ('rest_jax_rs') on tomcat. The front-end 
 portion communicates with the back-end (API) to do various fetch calls (GET, POST, 
-PUT, DELETE). The link to the website with the deployed front-end on nginx can be 
+PUT, DELETE). The link to the website with the deployed front-end on my NGINX server can be 
 found here:
 
 - https://bencat.dk/person/
 
-Link to the REST API that the client fetches data from:
+Link to the REST API that the client fetches data from (no Travis link because I deployed it with Maven):
 
 - https://bencat.dk/pclient/api/person/all
 
